@@ -123,7 +123,44 @@ Here is footnote reference [^1] and another [^longnote]
 
 Here is an inline footnote ^[inline notes are easier to write, sin ce you don't have to pick an identifier and move down to type the note.]
 
-Just adding this to try to back things up again!
-lets see if this works!
+******************************************
+* The following text is provided
+* for easier cutting and pasting as you
+* work through the exercises in
+* Module 2 - lesson 5: Presentation Formats
+******************************************
 
-Okay, lets see if this works again. One more time, just for shits n gigs.
+## A slide with an inserted image
+
+Here is an image inserted
+
+![sunstar](sunstar.png)
+
+
+## A slide with a table
+
+```{r}
+knitr::kable(head(cars),
+             caption = "Top 6 Rows of Cars Dataset")
+```
+
+
+## A slide with an equation
+
+A simple linear regression equation
+
+$$ Y = \beta_0 + \beta_1x $$
+
+
+## A slide with an inserted image {.flexbox .vcenter}
+
+
+## A slide with 2 columns an image and a bulleted list {.columns-2}
+
+![](sunstar.png)
+
+- bullet 1
+- bullet 2
+- bullet 3
+
+
